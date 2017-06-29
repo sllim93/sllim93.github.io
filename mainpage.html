@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sam Lim portfolio</title>
+     <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+     <link rel="stylesheet" href="css/font-awesome-animation.min.css">
+     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+     <link rel="stylesheet" href="css/stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper black">
+          <div class="container">
+              <a href="mainpage.html" class="brand-logo" id="logo"><span class="fa-stack"><i class="fa fa-superpowers fa-stack-2x" id="spinLogo" aria-hidden="true"></i><i class="fa fa-user fa-stack-1x" aria-hidden="true"></i></span></a>
+            <a href="#" data-activates="mobileDropdown" class="button-collapse dropdown-button"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="mainpage.html" class="waves-effect waves-light selected"><i class="fa fa-home fa-2x" aria-hidden="true"></i>&nbsp Home</a></li>
+              <li><a href="my_resume.html" class="waves-effect waves-light"><i class="material-icons left">assignment_ind</i> My Resume</a></li>
+              <li><a href="contact.html" class="waves-effect waves-light"><i class="material-icons left">settings_phone</i> Contact</a></li>
+            </ul> <!--list for desktop-->
+            <ul class="dropdown-content black" id="mobileDropdown">
+              <li><a href="mainpage.html" class="white-text selected"><i class="fa fa-home fa-2x" aria-hidden="true"></i> Home</a></li>
+              <li><a href="my_resume.html" class="white-text"><i class="material-icons left">assignment_ind</i> My Resume</a></li>
+              <li><a href="contact.html" class="white-text"><i class="material-icons left">settings_phone</i> Contact</a></li>
+            </ul> <!--list for mobile-->
+          </div>
+        </div>
+      </nav>
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="images/6.jpg" alt="">
+            <div class="caption center-align">
+              <h1>Sam Lim</h1>
+              <h2>A Brand New Beginning</h2>
+            </div>
+          </li>
+          <li>
+            <img src="images/8.jpg" alt="">
+            <div class="caption right-align slogan">
+              <h1>Sam Lim</h1>
+              <h2>Making Changes</h2>
+            </div>
+          </li>
+          <li>
+            <img src="images/fuckit.jpg" alt="" id="fuckit">
+            <div class="caption left-align slogan">
+              <h1>Sam Lim</h1>
+              <h2>Following True Passion</h2>
+            </div>
+          </li>
+        </ul>
+      </div><!--slider-->
+        </header>
+
+      <main>
+      <div class="bgColor">
+      <div class="container">
+        <div class="row">
+        <section class="col xl4">
+          <h3><i class="fa fa-wrench faa-wrench animated faa-slow" aria-hidden="true"></i> What I Do</h3>
+          <div class="card medium hoverable">
+            <div class="card-image">
+              <img src="images/do.jpg">
+              <span class="card-title">Learn and apply</span>
+            </div>
+            <div class="card-content">
+              <p>I learn about web development and programming through a few of great online resources. By creating some self-made projects, im having better insight of what I learned.</p><a class="btn-floating halfway-fab teal lighten-1"><i class="material-icons">work</i></a>
+            </div>
+          </div>
+          </section>
+          <section class="col xl4">
+            <h3><i class="fa fa-heart faa-pulse animated" aria-hidden="true"></i> What I Like</h3>
+          <div class="card medium hoverable">
+            <div class="card-image">
+              <img src="images/like.jpg">
+              <span class="card-title">I'm a Geek</span>
+            </div>
+            <div class="card-content">
+              <p>I obsess over innovative technologies. It would keep me challenged and motivated. I thrive on understanding the latest technology to keep me updated.</p><a class="btn-floating halfway-fab teal lighten-1"><i class="material-icons">thumb_up</i></a>
+            </div>
+          </div>
+          </section>
+          <section class="col xl4">
+            <h3><i class="fa fa-street-view faa-bounce animated" aria-hidden="true"></i> Where I Reside</h3>
+          <div class="card medium hoverable">
+            <div class="card-image">
+              <img src="images/live.jpg">
+              <span class="card-title">Malaysia</span>
+            </div>
+            <div class="card-content">
+              <p> Located in South East Asia region, in a country named Malaysia, the capital, Kuala Lumpur. Thats where I reside.</p><a class="btn-floating halfway-fab teal lighten-1"><i class="material-icons">location_on</i></a>
+            </div>
+          </div>
+          </section>
+      </div><!--row-->
+    </div><!--container-->
+ </div>
+
+
+
+<div class="parallax-container" id="abilities">
+  <div class="parallax"><img src="images/testing.jpg" alt=""></div>
+  <div class="container">
+  <h2 class="center-align" id="learnTitle">What I've Learn</h2>
+    <div class="row">
+      <div class="col l3 s4 center-align">
+          <a href="#modal1" class="waves-effect tooltipped" data-position="bottom" data-tooltip="HTML 5"><img src="images/HTML5_Logo.png" alt="html5" class="responsive-img"></a>
+      </div>
+      <div class="col s4 offset-l1 center-align">
+        <a href="#modal2" class="waves-effect tooltipped" data-position="bottom" data-tooltip="JavaScript"><img src="images/javascript_logo.png" alt="js" class="responsive-img"></a>
+      </div>
+      <div class="col l3 s4 offset-l1 center-align">
+        <a href="#modal3" class="waves-effect tooltipped" data-position="bottom" data-tooltip="CSS 3"><img src="images/css3logo.png" alt="css3" class="responsive-img"></a>
+      </div>
+    </div>
+
+
+
+          <div class="row">
+            <div class="col l2  offset-l1 s4 offset-s1">
+              <br><br><a href="#modal4" class="waves-effect tooltipped" data-position="left" data-tooltip="PHP"><img src="images/php.png" alt="css3" class="responsive-img" id="phplogo"></a>
+            </div>
+            <div class="col s4 offset-l1 hide-on-med-and-down">
+              <div class="card-panel">
+                <h4 id="cardTitle">My Learning Experience</h4>
+                <p>By exposing to these overwhelming languages and frameworks excite me. Being a non I.T. person yet wanting to become a full-stack web-developer is a real challenge, still I belived that I will get better in time through continuous learning and practices.</p>
+          </div>
+            </div>
+            <div class="col l2 offset-l1 s4 offset-s2">
+              <a href="#modal5" class="waves-effect tooltipped" data-position="right" data-tooltip="Ruby on Rails"><img src="images/rubyonrail.png" alt="css3" class="responsive-img" id="railslogo"></a>
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col l2 offset-l1 s3">
+                <a href="#modal6" class="waves-effect tooltipped" data-position="bottom" data-tooltip="MySQL"><img src="images/mysql.png" alt="mysql" class="responsive-img"></a>
+              </div>
+              <div class="col l2 offset-l1 s3">
+                <br><br><br><a href="#modal7" class="waves-effect tooltipped" data-position="top" data-tooltip="NodeJS"><img src="images/node.png" alt="nodejs" class="responsive-img"></a>
+              </div>
+              <div class="col l2 offset-l1 s3">
+                <br><a href="#modal8" class="waves-effect tooltipped" data-position="top" data-tooltip="C#"><img src="images/csharp.png" alt="csharp" class="responsive-img"></a>
+              </div>
+              <div class="col l2 offset-l1 s3">
+                <a href="#modal9" class="waves-effect tooltipped" data-position="bottom" data-tooltip="Photoshop CC"><img src="images/photoshop.png" alt="photoshop" class="responsive-img"></a>
+              </div>
+            </div>
+          </div>
+          </div>
+          </main>
+
+
+
+
+        <footer class="page-footer grey darken-4">
+         <div class="container">
+           <div class="row">
+             <div class="col l5 s12">
+               <h5 class="white-text">Let's Keep In Touch</h5>
+               <p class="grey-text text-lighten-4">Feel free to contact me. &nbsp<i class="fa fa-hand-o-right faa-horizontal animated faa-slow" aria-hidden="true"></i></p>
+             </div>
+             <div class="col l5 offset-l2 s12"><br>
+                 <a href="https://www.linkedin.com/in/sam-lim-sen-long-283660132" class="col l2 offset-l4 waves-effect waves-light navHover white-text"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                 <a href="http://facebook.com/always.study" class="col l2 waves-effect waves-light navHover white-text"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                 <a href="#" class="col l2 waves-effect waves-light navHover white-text"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+             </div>
+           </div>
+         </div>
+         <div class="footer-copyright black">
+           <div class="container">
+           &copy 2017 Sam Lim
+           <a class="grey-text text-lighten-4 right" href="#">Back to top &nbsp<i class="fa fa-arrow-up faa-vertical animated faa" aria-hidden="true"></i></a>
+           </div>
+         </div>
+       </footer>
+
+
+      <!-- MODAL STRUCTURE -->
+    <div>
+      <div id="modal1" class="modal" id="modelStructure">
+        <div class="container">
+          <br><span class="new badge" data-badge-caption="Amature"></span><h4>HTML 5</h4>
+          <div class="modal-content">
+            <div class="progress">
+              <div class="determinate" style="width: 50%"></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#abilities" class="modal-action modal-close waves-effect waves-green">Close</a>
+          </div>
+        </div>
+      </div>
+      <div id="modal2" class="modal" id="modelStructure">
+        <div class="container">
+          <br><span class="new badge" data-badge-caption="Novice"></span><h4>Javascript</h4>
+          <div class="modal-content">
+            <div class="progress">
+              <div class="determinate" style="width: 40%"></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#abilities" class="modal-action modal-close waves-effect waves-green">Close</a>
+          </div>
+        </div>
+      </div>
+      <div id="modal3" class="modal" id="modelStructure">
+        <div class="container">
+          <br><span class="new badge" data-badge-caption="Amature"></span><h4>CSS 3</h4>
+          <div class="modal-content">
+            <div class="progress">
+              <div class="determinate" style="width: 50%"></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#abilities" class="modal-action modal-close waves-effect waves-green">Close</a>
+          </div>
+        </div>
+      </div>
+      <div id="modal4" class="modal" id="modelStructure">
+        <div class="container">
+          <br><span class="new badge" data-badge-caption="Amature"></span><h4>PHP</h4>
+          <div class="modal-content">
+            <div class="progress">
+              <div class="determinate" style="width: 50%"></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#abilities" class="modal-action modal-close waves-effect waves-green">Close</a>
+          </div>
+        </div>
+      </div>
+      <div id="modal5" class="modal" id="modelStructure">
+        <div class="container">
+          <br><span class="new badge" data-badge-caption="Half-baked"></span><h4>Ruby on Rails</h4>
+          <div class="modal-content">
+            <div class="progress">
+              <div class="determinate" style="width: 20%"></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#abilities" class="modal-action modal-close waves-effect waves-green">Close</a>
+          </div>
+        </div>
+      </div>
+      <div id="modal6" class="modal" id="modelStructure">
+        <div class="container">
+          <br><span class="new badge" data-badge-caption="Amature"></span><h4>MySQL</h4>
+          <div class="modal-content">
+            <div class="progress">
+              <div class="determinate" style="width: 30%"></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#abilities" class="modal-action modal-close waves-effect waves-green">Close</a>
+          </div>
+        </div>
+      </div>
+      <div id="modal7" class="modal" id="modelStructure">
+        <div class="container">
+          <br><span class="new badge" data-badge-caption="Novice"></span><h4>Node JS</h4>
+          <div class="modal-content">
+            <div class="progress">
+              <div class="determinate" style="width: 20%"></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#abilities" class="modal-action modal-close waves-effect waves-green">Close</a>
+          </div>
+        </div>
+      </div>
+      <div id="modal8" class="modal" id="modelStructure">
+        <div class="container">
+          <br><span class="new badge" data-badge-caption="Half-baked"></span><h4>C#</h4>
+          <div class="modal-content">
+            <div class="progress">
+              <div class="determinate" style="width: 15%"></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#abilities" class="modal-action modal-close waves-effect waves-green">Close</a>
+          </div>
+        </div>
+      </div>
+      <div id="modal9" class="modal" id="modelStructure">
+        <div class="container">
+          <br><span class="new badge" data-badge-caption="Amature"></span><h4>Photoshop CC</h4>
+          <div class="modal-content">
+            <div class="progress">
+              <div class="determinate" style="width: 40%"></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#abilities" class="modal-action modal-close waves-effect waves-green">Close</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- tap target -->
+    <div class="fixed-action-btn" style="bottom:45px;right:24px">
+      <a id="menu" onclick="$('.tap-target').tapTarget('open')" class="waves-effect waves-light btn btn-floating btn-large black">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul>
+        <li><a href="#" class="btn-floating black tooltipped" data-position="left" data-tooltip="Back to Top"><i class="fa fa-arrow-up faa-vertical animated faa" aria-hidden="true"></i></a></li>
+        <li><a href="mainpage.html" class="btn-floating black tooltipped" data-position="left" data-tooltip="Home"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="my_resume.html" class="btn-floating black tooltipped" data-position="left" data-tooltip="My Resume"><i class="material-icons left">assignment_ind</i></a></li>
+        <li><a href="contact.html" class="btn-floating black tooltipped" data-position="left" data-tooltip="Contact"><i class="material-icons left">settings_phone</i></a></li>
+      </ul>
+    </div>
+
+    <!-- TAP TARGET CONTENT -->
+    <div class="tap-target black" data-activates="menu">
+      <div class="tap-target-content white-text">
+        <h4 class="center-align">Greeting</h4>
+        <p class="white-text center-align">Looking for employment opportunity as web developer or programmer. Currently working on a shopping cart web application by using PHP. </p>
+        <p>Feel free to download my resume &nbsp <a href="#"><i class="fa fa-file-text" aria-hidden="true"></i></a></p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+
+</html>
